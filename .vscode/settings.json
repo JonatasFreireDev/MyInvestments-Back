@@ -1,0 +1,83 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    // "html.autoClosingTags": true,
+    "editor.rulers": [80, 120],
+    "eslint.alwaysShowStatus": true,
+    "terminal.integrated.fontSize": 14,
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "editor.autoClosingQuotes": "always",
+    "window.zoomLevel": -1,
+    "eslint.workingDirectories": ["./FrontEnd", "./BackEnd"],
+    "editor.formatOnSave": true,
+    "typescript.tsserver.log": "verbose",
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false,
+    "workbench.activityBar.visible": true,
+    "[javascript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "workbench.colorTheme": "Dracula Soft",
+    "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entitier": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "test": "test",
+      "components": "react-components",
+      "routes": "routes",
+      "interface": "review",
+      "util": "3d"
+    },
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune"
+    },
+    "git.ignoreLimitWarning": true
+  }
